@@ -19,16 +19,32 @@ Example of interesting questions (by [@BukanYahya](https://x.com/BukanYahya/stat
 
 Here is some important questions that I will present for the higher-ups:
 
-- (soon)
+- Product Description
+- Market Positioning and Competitor Analysis
+- Consumer Behavior Trends
+- Product Performance Metrics (Profitability, Revenue Growth)
+- Product Lifecycle Management
+- Pricing Strategies
+- Customer Segmentation
 
-Here is some important questions that I will present for the higher-ups:
+- Produk apa saja yang dijual
+    - Grafik pie chart (bisa diswitch keseluran atau berdasarkan source)
+    - 
+
 
 - (soon)
 
 ## Tools
 
-- Database system : PostgreSQL
-- Script : Python
-- Dashboard : Streamlit
+- Database system : `PostgreSQL`
+- Script : `Python`
+- Dashboard : `Streamlit`
+
+## How do I make this Project
+
+- I explored the database using `DBeaver`. Turns out that the database contains three filled tables (`items`, `prices`, and `discount`) and some empty tables (mostly about the order data).
+- I looked into the `items` table and found that there is different style for `category` from different sources, so I decided to _normalize_ the entries. I used `Copilot` to help me making the values map.
+- In the `items` table, I also found out that some products that's actually the same have different names, e.g. _Indomie Mi Instan Soto Mie 70 g_ & _Indomie Mi Instan Soto Mie 70G_. For the purpose of comparing product from different `source`, I also made a values map to clean this data.
+- I made a little _data pipeline_ using _python_ script to load the data into my dashboard.
 
 ## How to Run This Project
