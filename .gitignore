@@ -1,2 +1,6 @@
 *.db
 test*
+**pycache**
+**pycache
+indiemart.db*
+indiemart.db**
