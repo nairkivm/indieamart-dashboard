@@ -26,7 +26,7 @@ Here is some important questions that I will present for the higher-ups besides 
 
 ## Tools
 
-- Database system : `PostgreSQL`
+- Database system : `SQLite`
 - Script : `Python`
 - Dashboard : `Streamlit`
 

@@ -109,11 +109,11 @@ with st.container(border=True):
     st.markdown("### Source store comparison")
     third_cols = st.columns([1,5])
     with third_cols[1]:
-        tabs = st.tabs[
+        tabs = st.tabs([
             "Product Diversity",
             "Product Prices",
             "Discounts"
-        ]
+        ])
         with tabs[0]:
             # Create a bar chart figure
             product_diversity_bar_fig = go.Figure(
@@ -151,7 +151,7 @@ with st.container(border=True):
                     )
                 ]
             )
-            st.plotly_chart(product_diversity_bar_fig, use_container_width=True)
-            st.markdown(f"""* _Only compare {len(compare_items)} items that's available in bith store._""")
+            st.plotly_chart(product_price_bar_fig, use_container_width=True)
+            st.markdown(f"""* _Only compare {len(compare_items)} items that's available in both store._""")
 
     
