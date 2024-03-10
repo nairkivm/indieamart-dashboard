@@ -17,4 +17,8 @@ path = os.path.dirname(__file__)
 class Constants:
     CATEGORY_VALUES_MAP = json.load(open(path+'/category-map.json'))
     ITEM_NAME_VALUES_MAP = json.load(open(path+'/item-name-map.json'))
-
+    ITEM_SOURCE = {
+        "All" : "All",
+        "Klik Indomaret" : "klikindomaret",
+        "Alfa Gift" : "alfagift"
+    }

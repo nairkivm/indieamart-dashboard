@@ -17,22 +17,12 @@ Example of interesting questions (by [@BukanYahya](https://x.com/BukanYahya/stat
 
 ## Highlight
 
-Here is some important questions that I will present for the higher-ups:
+Here is some important questions that I will present for the higher-ups besides _product description_:
 
-- Product Description
-- Market Positioning and Competitor Analysis
-- Consumer Behavior Trends
-- Product Performance Metrics (Profitability, Revenue Growth)
-- Product Lifecycle Management
-- Pricing Strategies
-- Customer Segmentation
-
-- Produk apa saja yang dijual
-    - Grafik pie chart (bisa diswitch keseluran atau berdasarkan source)
-    - 
-
-
-- (soon)
+- Which _source store_ has the most diverse product offerings?
+- Which _source store_ that provides the most affordable product?
+- Which _source store_ frequently offers discounts?
+- How substantial are the discounts provided?
 
 ## Tools
 
@@ -48,3 +38,9 @@ Here is some important questions that I will present for the higher-ups:
 - I made a little _data pipeline_ using _python_ script to load the data into my dashboard.
 
 ## How to Run This Project
+
+- Clone this project
+- Download data from [https://194.233.94.36/indiemart.db](https://194.233.94.36/indiemart.db)
+- Install all requirements (in requirements.txt)
+- From terminal, run `python -m streamlit run .\streamlit-app.py`
+- Follow the link provided
