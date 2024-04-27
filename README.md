@@ -21,8 +21,6 @@ Here is some important questions that I will present for the higher-ups besides 
 
 - Which _source store_ has the most diverse product offerings?
 - Which _source store_ that provides the most affordable product?
-- Which _source store_ frequently offers discounts?
-- How substantial are the discounts provided?
 
 ## Tools
 
@@ -44,3 +42,11 @@ Here is some important questions that I will present for the higher-ups besides 
 - Install all requirements (in requirements.txt)
 - From terminal, run `python -m streamlit run .\streamlit-app.py`
 - Follow the link provided
+
+## Update
+
+- 27 Apr 2024
+
+    - Eventually, I didn't continue and failed to participate in the contest :\(
+
+    - I added minor update to provide looking into the data details

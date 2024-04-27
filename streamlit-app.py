@@ -106,9 +106,9 @@ compare_items = ds.get_compare_items(item_latest_price_df)
 avg_lp_per_category_alfagift, avg_lp_per_category_klikindomaret = ds.get_avg_latest_price_compare_source_per_category(item_latest_price_df, compare_items)
 
 with st.container(border=True):
-    st.markdown("### Source store comparison")
-    third_cols = st.columns([1,5])
-    with third_cols[1]:
+    third_cols = st.columns([1,1])
+    with third_cols[0]:
+        st.markdown("### Source store comparison")
         tabs = st.tabs([
             "Product Diversity",
             "Product Prices",
@@ -153,5 +153,8 @@ with st.container(border=True):
             )
             st.plotly_chart(product_price_bar_fig, use_container_width=True)
             st.markdown(f"""* _Only compare {len(compare_items)} items that's available in both store._""")
+    with third_cols[1]:
+        st.markdown("### Item Data Details")
+        st.dataframe(item_latest_price_df, hide_index=True)
 
     
