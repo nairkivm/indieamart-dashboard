@@ -50,3 +50,13 @@ Here is some important questions that I will present for the higher-ups besides 
     - Eventually, I didn't continue and failed to participate in the contest :\(
 
     - I added minor update to provide looking into the data details
+
+## Dashboard Sample
+
+<video width="480" height="360" controls>
+  <source src="./Recording 2024-04-27 171602.mp4" type="video/mp4">
+</video>
+
+![Dashboard-1](./screenshot-1714212986786.png)
+
+![Dashboard-2](./screenshot-1714213014926.png)
